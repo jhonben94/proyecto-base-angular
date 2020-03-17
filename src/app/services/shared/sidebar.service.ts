@@ -12,25 +12,20 @@ export class SidebarService {
         iconoSubModulo:'address-book',
         moduloItems: [
           {
-              id:'cliente',
-              subModulo : 'Clientes',
+              id:'forms',
+              subModulo : 'Forms & Table',
               iconoSubModulo: 'fas fa-user',
               subItems: [
                 {
                   url:'',
                   icono:'fas fa-user',
-                  titulo:'Agregar Cliente'
+                  titulo:'Form'
                 },
                 {
                   url:'',
                   icono:'fas fa-address-card',
-                  titulo:'Modificar Cliente'
+                  titulo:'Table'
                 },
-                {
-                  url:'',
-                  icono:'fas fa-user-friends',
-                  titulo:'Listar Clientes'
-                }
               ]
           },
         ]
@@ -95,7 +90,7 @@ export class SidebarService {
               subModulo : 'Modulo N',
               subItems: [
                 {
-                  url:'',
+                  url:'add',
                   icono:'address-card',
                   titulo:'Agregar Cliente'
                 }

@@ -1,0 +1,27 @@
+
+{
+    "dato": [
+        {
+            "categoriaProyectoId": 2,
+            "codigo": "CATN2",
+            "descripcion": "CATEGORIA N2",
+            "usuarioCreacion": null,
+            "usuarioModificacion": null,
+            "fechaCreacion": null,
+            "fechaModificacion": null,
+            "proyectosList": []
+        },
+        {
+            "categoriaProyectoId": 1,
+            "codigo": "CAT-PRO1",
+            "descripcion": "CATEGORIA PROYECTO 1 MODIF",
+            "usuarioCreacion": null,
+            "usuarioModificacion": null,
+            "fechaCreacion": null,
+            "fechaModificacion": "2020-03-12",
+            "proyectosList": []
+        }
+    ],
+    "mensaje": null,
+    "exitoso": true
+}

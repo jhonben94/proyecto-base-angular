@@ -7,6 +7,17 @@ import { SidebarComponent } from './shared/sidebar/sidebar.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { AppRoutingModule } from './app-routing.module';
+import { BreadcrumsComponent } from './shared/breadcrums/breadcrums.component';
+import { FormsBasicComponent } from './components/forms-basic/forms-basic.component';
+import { TablaBasicComponent } from './components/tabla-basic/tabla-basic.component';
+import { SortableHeader } from './directives/sortable.directive';
+
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+
+import { FormsModule } from '@angular/forms';
+
+
+
 
 @NgModule({
   declarations: [
@@ -14,11 +25,17 @@ import { AppRoutingModule } from './app-routing.module';
     HeaderComponent,
     SidebarComponent,
     FooterComponent,
-    DashboardComponent
+    DashboardComponent,
+    BreadcrumsComponent,
+    FormsBasicComponent,
+    TablaBasicComponent,
+    SortableHeader
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
