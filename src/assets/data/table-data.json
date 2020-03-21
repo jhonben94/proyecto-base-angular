@@ -1,27 +1,97 @@
-
 {
-    "dato": [
+    "lista": [
         {
-            "categoriaProyectoId": 2,
-            "codigo": "CATN2",
+            "categoriaProductoId": 1,
+            "codigo": "ITEM1",
             "descripcion": "CATEGORIA N2",
-            "usuarioCreacion": null,
+            "usuarioCreacion": "jbenitez",
             "usuarioModificacion": null,
             "fechaCreacion": null,
-            "fechaModificacion": null,
-            "proyectosList": []
+            "fechaModificacion": null
         },
         {
-            "categoriaProyectoId": 1,
-            "codigo": "CAT-PRO1",
-            "descripcion": "CATEGORIA PROYECTO 1 MODIF",
-            "usuarioCreacion": null,
+            "categoriaProductoId": 1,
+            "codigo": "ITEM2",
+            "descripcion": "CATEGORIA N2",
+            "usuarioCreacion": "jbenitez",
             "usuarioModificacion": null,
             "fechaCreacion": null,
-            "fechaModificacion": "2020-03-12",
-            "proyectosList": []
+            "fechaModificacion": null
+        },
+        {
+            "categoriaProductoId": 1,
+            "codigo": "ITEM3",
+            "descripcion": "CATEGORIA N2",
+            "usuarioCreacion": "jbenitez",
+            "usuarioModificacion": null,
+            "fechaCreacion": null,
+            "fechaModificacion": null
+        },
+        {
+            "categoriaProductoId": 1,
+            "codigo": "ITEM4",
+            "descripcion": "CATEGORIA N2",
+            "usuarioCreacion": "jbenitez",
+            "usuarioModificacion": null,
+            "fechaCreacion": null,
+            "fechaModificacion": null
+        },
+        {
+            "categoriaProductoId": 1,
+            "codigo": "ITEM5",
+            "descripcion": "CATEGORIA N2",
+            "usuarioCreacion": "jbenitez",
+            "usuarioModificacion": null,
+            "fechaCreacion": null,
+            "fechaModificacion": null
+        },
+
+        {
+            "categoriaProductoId": 1,
+            "codigo": "ITEM6",
+            "descripcion": "CATEGORIA N2",
+            "usuarioCreacion": "jbenitez",
+            "usuarioModificacion": null,
+            "fechaCreacion": null,
+            "fechaModificacion": null
+        },
+        {
+            "categoriaProductoId": 1,
+            "codigo": "ITEM7",
+            "descripcion": "CATEGORIA N2",
+            "usuarioCreacion": "jbenitez",
+            "usuarioModificacion": null,
+            "fechaCreacion": null,
+            "fechaModificacion": null
+        },
+        {
+            "categoriaProductoId": 1,
+            "codigo": "ITEM8",
+            "descripcion": "CATEGORIA N2",
+            "usuarioCreacion": "jbenitez",
+            "usuarioModificacion": null,
+            "fechaCreacion": null,
+            "fechaModificacion": null
+        }, {
+            "categoriaProductoId": 1,
+            "codigo": "ITEM9",
+            "descripcion": "CATEGORIA N2",
+            "usuarioCreacion": "jbenitez",
+            "usuarioModificacion": null,
+            "fechaCreacion": null,
+            "fechaModificacion": null
+        }
+        , {
+            "categoriaProductoId": 1,
+            "codigo": "ITEM10",
+            "descripcion": "CATEGORIA N2",
+            "usuarioCreacion": "jbenitez",
+            "usuarioModificacion": null,
+            "fechaCreacion": null,
+            "fechaModificacion": null
         }
     ],
-    "mensaje": null,
-    "exitoso": true
+    "cantidad": 5,
+    "pagina": 1,
+    "total": 10
 }

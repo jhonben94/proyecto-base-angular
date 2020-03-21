@@ -28,7 +28,26 @@ export class DataTableService {
   listarRecurso(filtros){
     return this.http.get(this.recurosBaseURL, {params: filtros})
                .pipe( 
-                 map(r => r)
+                 map((r:any) => {
+                   let respuesta = {
+                     lista:[],
+                     pagina: 0,
+                     total: 0
+                   }
+
+                   console.log(filtros);
+                   
+                   const page = filtros.pagina;
+                   const inicio =filtros.pagina==1? 0: filtros.pagina*page +1
+                   const fin = inicio + filtros.cantidad
+                   const data = r.lista.slice (inicio,fin)
+                   respuesta.lista = data;
+                   respuesta.pagina = filtros.pagina
+                   respuesta.total = r.total
+
+                   return respuesta;
+                   
+                 })
                 );
   }
 }

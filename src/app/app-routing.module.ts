@@ -13,6 +13,15 @@ const routes: Routes = [
 
     ]
   },
+
+
+
+
+
+  {
+    path: '**',
+    redirectTo: '',
+  },
   //{path:'/new', component:NewComponent}
 ];
 

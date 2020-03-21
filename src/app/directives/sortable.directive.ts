@@ -1,4 +1,4 @@
-import {Directive, EventEmitter, Input, Output} from '@angular/core';
+import {Directive, EventEmitter, Input, Output, HostBinding, HostListener} from '@angular/core';
 
 export type SortDirection = 'asc' | 'desc' | '';
 const rotate: {[key: string]: SortDirection} = { 'asc': 'desc', 'desc': '', '': 'asc' };
@@ -21,11 +21,12 @@ export class SortableHeader {
 
     constructor() { }
 
-  @Input() sortable: string;
-  @Input() direction: SortDirection = '';
+  sortable: string;
+  @HostBinding('class.asc')  direction: SortDirection = '';
   @Output() sort = new EventEmitter<SortEvent>();
 
-  rotate() {
+  @HostListener('click')rotate() {
+    
     this.direction = rotate[this.direction];
     this.sort.emit({column: this.sortable, direction: this.direction});
   }

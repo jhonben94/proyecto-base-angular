@@ -17,12 +17,12 @@ export class SidebarService {
               iconoSubModulo: 'fas fa-user',
               subItems: [
                 {
-                  url:'',
+                  url:'/forms',
                   icono:'fas fa-user',
                   titulo:'Form'
                 },
                 {
-                  url:'',
+                  url:'/data-table',
                   icono:'fas fa-address-card',
                   titulo:'Table'
                 },
